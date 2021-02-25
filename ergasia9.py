@@ -2,7 +2,7 @@ import re
 
 from collections import Counter
 
-string = open('').read() #συμπληρώστε μέσα στο open το τιτλο του αρχείου κείμενου που θέλετε να επεξεργαστείτε
+string = open('').read() #συμπληρώστε μέσα στο open τον τίτλο του αρχείου κείμενου που θέλετε να επεξεργαστείτε
 
 new_str = re.sub(r'[^a-zA-Z ]+', '', string)
 
